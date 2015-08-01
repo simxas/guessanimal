@@ -1,6 +1,6 @@
 var randomWordnumber = 0;
 var word = '';
-var currentLevel = 0;
+var currentLevel = 2;
 var levelTime = 0;
 var lives = 3;
 
@@ -10,11 +10,13 @@ var MenuLayer = cc.Layer.extend({
         this._super();
     },
     init:function(){
+        currentLevel = 0;
         //call super class's super function
         this._super();
         //music
         cc.audioEngine.playMusic(res.music_mp3, true);
-        cc.audioEngine.setMusicVolume(0.3);
+        cc.audioEngine.setMusicVolume(0);
+        // cc.audioEngine.setMusicVolume(0.3);
 
         //2. get the screen size of your game canvas
         var winsize = cc.director.getWinSize();
