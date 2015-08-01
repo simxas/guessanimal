@@ -1,6 +1,6 @@
 var randomWordnumber = 0;
 var word = '';
-var currentLevel = 2;
+var currentLevel = 0;
 var levelTime = 0;
 var lives = 3;
 
