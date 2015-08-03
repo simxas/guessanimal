@@ -33,7 +33,7 @@ var correctClicked = 0;
 //using this to have a reference to the correct animal
 var correctAnimal = {};
 // using to decide when to show GameOverLayer
-var a = 0;
+var gameover = 0;
 //using to increese difficulty
 var dif = 0;
 
@@ -48,6 +48,12 @@ function nextLostScene(){
     playSceneThis.addChild(new WordLayer());
     playSceneThis.removeChild(backgroundLayerThis);
     playSceneThis.removeChild(animationLayerThis);
+    gameover = gameover + 1;
+    // game over dalis
+    if(gameover == 3) {
+        playSceneThis.addChild(new GameOverLayer());
+        gameover = 0;
+    }
     correctClicked = 0;
 }
 
@@ -72,13 +78,7 @@ var AnimationLayer = cc.Layer.extend({
             var fadeAction = cc.FadeTo(1, 0);
             correctAnimal.runAction( cc.sequence( rotateAction, scaleAction, fadeAction, cc.callFunc( nextCorrectScene, this ) ) );            
         }else if(correctClicked == 2){
-            nextLostScene();
-            // game over dalis
-            a = a + 1;
-            if(a == 3) {
-                playSceneThis.addChild(new GameOverLayer());
-                a = 0;
-            }
+            // nextLostScene();
         }
     },
 
@@ -106,23 +106,27 @@ var AnimationLayer = cc.Layer.extend({
                 var rect = cc.rect(0, 0, s.width, s.height);
 
                 //Check the click area
-                if (cc.rectContainsPoint(rect, locationInNode)) {       
-                    cc.log("WAS CLICKED ON THE CORRECT ANIMAL");
-                    cc.log("dif YRA: " + dif);
-                   
-                    target.opacity = 180;
-                    // game over dalis
-                    a = a -1;
-                    if(a < 0) {
-                        a = 0;
-                    }
-                    //winning sound playing just once.
-                    if(correctClicked == 0) {
-                        cc.audioEngine.playEffect(res.win_mp3);
-                    }
-                    correctClicked = 1;
-                    
-                    return true;
+                if (cc.rectContainsPoint(rect, locationInNode)) {
+                    //make sure that only one correct click works
+                    if(correctClicked != 2) {
+                        cc.log("WAS CLICKED ON THE CORRECT ANIMAL");
+                        cc.log("dif YRA: " + dif);
+
+                        target.opacity = 180;
+                        // game over dalis
+                        gameover = gameover -1;
+                        if(gameover < 0) {
+                            gameover = 0;
+                        }
+                        //winning sound playing just once.
+                        if(correctClicked == 0) {
+                            cc.audioEngine.playEffect(res.win_mp3);
+                        }
+                        correctClicked = 1;
+
+                        return true;
+                    }    
+
                 }
                 return false;
             },
@@ -147,12 +151,21 @@ var AnimationLayer = cc.Layer.extend({
                 var rect = cc.rect(0, 0, s.width, s.height);
 
                 //Check the click area
-                if (cc.rectContainsPoint(rect, locationInNode)) {       
-                    cc.log("INCORRECT ANIMAL TOUCHED");
-                    correctClicked = 2;
-                    cc.audioEngine.playEffect(res.lost_mp3);
-                   
-                    return true;
+                if (cc.rectContainsPoint(rect, locationInNode)) {
+                    //make sure that only one incorrect click works
+                    if(correctClicked != 1 && correctClicked != 2) {
+                        cc.log("INCORRECT ANIMAL TOUCHED");
+                        cc.log("GAMEOVER IS: "+ gameover);
+                        correctClicked = 2;
+                        cc.audioEngine.playEffect(res.lost_mp3);
+
+                        //animation for incorrect animal
+                        var jumpAction = cc.JumpTo(0.8, cc.p(1000, 200), 50, 4);
+                        target.runAction( cc.sequence( jumpAction, cc.callFunc( nextLostScene, this ) ) );
+
+                        return true;
+                    }     
+                    
                 }
                 return false;
             },
