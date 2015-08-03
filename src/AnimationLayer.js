@@ -217,26 +217,23 @@ var AnimationLayer = cc.Layer.extend({
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
@@ -252,26 +249,23 @@ var AnimationLayer = cc.Layer.extend({
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
@@ -287,26 +281,23 @@ var AnimationLayer = cc.Layer.extend({
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
@@ -322,26 +313,23 @@ var AnimationLayer = cc.Layer.extend({
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
@@ -376,58 +364,51 @@ var AnimationLayer = cc.Layer.extend({
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
@@ -447,58 +428,51 @@ var AnimationLayer = cc.Layer.extend({
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
@@ -518,58 +492,51 @@ var AnimationLayer = cc.Layer.extend({
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
@@ -589,58 +556,51 @@ var AnimationLayer = cc.Layer.extend({
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
@@ -661,58 +621,51 @@ var AnimationLayer = cc.Layer.extend({
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
@@ -733,58 +686,51 @@ var AnimationLayer = cc.Layer.extend({
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
@@ -805,58 +751,51 @@ var AnimationLayer = cc.Layer.extend({
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
@@ -877,58 +816,51 @@ var AnimationLayer = cc.Layer.extend({
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
@@ -967,90 +899,79 @@ var AnimationLayer = cc.Layer.extend({
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -1074,90 +995,79 @@ var AnimationLayer = cc.Layer.extend({
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -1181,90 +1091,79 @@ var AnimationLayer = cc.Layer.extend({
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -1288,90 +1187,79 @@ var AnimationLayer = cc.Layer.extend({
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -1396,90 +1284,79 @@ var AnimationLayer = cc.Layer.extend({
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -1504,90 +1381,79 @@ var AnimationLayer = cc.Layer.extend({
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -1612,90 +1478,79 @@ var AnimationLayer = cc.Layer.extend({
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -1720,90 +1575,79 @@ var AnimationLayer = cc.Layer.extend({
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -1828,90 +1672,79 @@ var AnimationLayer = cc.Layer.extend({
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -1936,90 +1769,79 @@ var AnimationLayer = cc.Layer.extend({
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -2044,90 +1866,79 @@ var AnimationLayer = cc.Layer.extend({
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place12.initWithFile(animals[wrongAnimalNumber]);
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
@@ -2152,90 +1963,79 @@ var AnimationLayer = cc.Layer.extend({
                         place12.setPosition(winsize.width / 1.15, winsize.height / 5.5);
                         place12.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place.initWithFile(animals[wrongAnimalNumber]);
                         place.setPosition(winsize.width / 7.7, winsize.height / 2);
                         place.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place2.initWithFile(animals[wrongAnimalNumber]);
                         place2.setPosition(winsize.width / 2.65, winsize.height / 2);
                         place2.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place3.initWithFile(animals[wrongAnimalNumber]);
                         place3.setPosition(winsize.width / 1.60, winsize.height / 2);
                         place3.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place4.initWithFile(animals[wrongAnimalNumber]);
                         place4.setPosition(winsize.width / 1.15, winsize.height / 2);
                         place4.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place5.initWithFile(animals[wrongAnimalNumber]);
                         place5.setPosition(winsize.width / 7.7, winsize.height / 1.25);
                         place5.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place6.initWithFile(animals[wrongAnimalNumber]);
                         place6.setPosition(winsize.width / 2.65, winsize.height / 1.25);
                         place6.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place7.initWithFile(animals[wrongAnimalNumber]);
                         place7.setPosition(winsize.width / 1.60, winsize.height / 1.25);
                         place7.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place8.initWithFile(animals[wrongAnimalNumber]);
                         place8.setPosition(winsize.width / 1.15, winsize.height / 1.25);
                         place8.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place9.initWithFile(animals[wrongAnimalNumber]);
                         place9.setPosition(winsize.width / 7.7, winsize.height / 5.5);
                         place9.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place10.initWithFile(animals[wrongAnimalNumber]);
                         place10.setPosition(winsize.width / 2.65, winsize.height / 5.5);
                         place10.setAnchorPoint(cc.p(0.5, 0.5));
 
-                        wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        if(wrongAnimalNumber == randomWordnumber){
+                        do {
                             wrongAnimalNumber = (Math.floor(Math.random() * 21) % 21);
-                        }
+                        } while(wrongAnimalNumber === randomWordnumber);
                         place11.initWithFile(animals[wrongAnimalNumber]);
                         place11.setPosition(winsize.width / 1.60, winsize.height / 5.5);
                         place11.setAnchorPoint(cc.p(0.5, 0.5));
