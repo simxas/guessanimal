@@ -36,6 +36,17 @@ var correctAnimal = {};
 var gameover = 0;
 //using to increese difficulty
 var dif = 0;
+//timer part
+var secondsLeft = 5;
+var secondsInterval = 0;
+
+function setTimer() {
+    setInterval(function(){timer()},1000);
+}
+function timer(){
+    secondsLeft = secondsLeft - 1;
+
+}
 
 function nextCorrectScene(){
     playSceneThis.addChild(new WordLayer());
@@ -80,6 +91,9 @@ var AnimationLayer = cc.Layer.extend({
         }else if(correctClicked == 2){
             // nextLostScene();
         }
+        if(secondsLeft == 0) {
+            playSceneThis.addChild(new GameOverLayer());
+        }
     },
 
     init:function () {
@@ -87,6 +101,7 @@ var AnimationLayer = cc.Layer.extend({
         animationLayerThis = this;
         var winsize = cc.director.getWinSize();
         var centerPos = cc.p(winsize.width / 2, winsize.height / 2);
+        // setTimer();
         //===================
         // WHOLE TOUCH THING
         //===================
